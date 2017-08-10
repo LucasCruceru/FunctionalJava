@@ -86,6 +86,17 @@
               <item name="FunctionalJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="FunctionalJava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FunctionalJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunctionalJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FunctionalJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FunctionalJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lucas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,12 +217,20 @@
       <workItem from="1502366713717" duration="155000" />
       <workItem from="1502366912400" duration="10000" />
       <workItem from="1502367175221" duration="8000" />
-      <workItem from="1502367232823" duration="9000" />
+      <workItem from="1502367232823" duration="132000" />
     </task>
+    <task id="LOCAL-00001" summary="added a version of the book to the repository">
+      <created>1502367292421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502367292421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182000" />
+    <option name="totallyTimeSpent" value="305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1313" y="6" width="2499" height="1452" extended-state="6" />
@@ -250,6 +269,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added a version of the book to the repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a version of the book to the repository" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -282,6 +305,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

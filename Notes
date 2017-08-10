@@ -1,0 +1,4 @@
+When should we use method references? 
+
+If lambda expressions merely pass their parameters through, we can
+replace them with method references.
