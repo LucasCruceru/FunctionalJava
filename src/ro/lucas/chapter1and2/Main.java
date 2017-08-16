@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 
 import static java.util.stream.Collectors.joining;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 
