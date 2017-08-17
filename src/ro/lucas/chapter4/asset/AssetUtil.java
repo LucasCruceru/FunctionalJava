@@ -1,11 +1,11 @@
-package ro.lucas.chapter4;
+package ro.lucas.chapter4.asset;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static ro.lucas.chapter4.Asset.AssetType.BOND;
-import static ro.lucas.chapter4.Asset.AssetType.STOCK;
+import static ro.lucas.chapter4.asset.Asset.AssetType.BOND;
+import static ro.lucas.chapter4.asset.Asset.AssetType.STOCK;
 
 public class AssetUtil {
     public static void main(String[] args) {
