@@ -3,15 +3,15 @@ package ro.lucas.chapter5.rodcutter;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class RodCutterTest {
     private RodCutter rodCutter = new RodCutter();
-    private List<Integer> prices = new ArrayList<>(
-            2
-    );
+    private List<Integer> prices = Arrays.asList(2,3,4,5,6);
+
 
     @Test
     void VerboseExceptionTest() {
