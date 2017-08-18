@@ -9,7 +9,8 @@ public class Locking {
     protected void setLock(final Lock mock){
         lock = mock;
     }
-    public static void runLocked(Lock lock, Runnable block){
+
+    private static void runLocked(Lock lock, Runnable block){
      lock.lock();
      try {
          block.run();
@@ -17,4 +18,8 @@ public class Locking {
        lock.unlock();
      }
     }
+    public void doOp(){
+        runLocked(lock,() -> {/*...locked code...*/} );
+    }
+
 }
