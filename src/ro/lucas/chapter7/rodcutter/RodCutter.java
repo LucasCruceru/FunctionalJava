@@ -14,7 +14,7 @@ public class RodCutter {
         this.prices = prices;
     }
 
-    public int maxProfit(final int rodLength) {
+    private int maxProfit(final int rodLength) {
         BiFunction<Function<Integer, Integer>, Integer, Integer> compute =
                 (func, length) -> {
                     int profit = (length <= prices.size()) ? prices.get(length - 1) : 0;
