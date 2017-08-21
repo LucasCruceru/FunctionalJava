@@ -2,3 +2,10 @@ When should we use method references?
 
 If lambda expressions merely pass their parameters through, we can
 replace them with method references.
+
+Essential Practices
+1. Be declarative and less imperative
+2. Favor immutability
+3. Reduce side effects
+4. Expressions over statements
+5. Design with Higher-Order functions
